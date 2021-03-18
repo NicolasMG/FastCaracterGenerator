@@ -3,11 +3,11 @@ Commerçant	Charlatan, escroc	-	+	+	-	-	+	-	+	+	*	+	+	+
 Commerçant	Colporteur, itinérant	+	+	+	+	-	-	-	+	+	*	+	-	+
 Commerçant	Contrebandier, receleur	+	-	*	+	-	+	-	+	+	+	+	-	+
 Commerçant	Marchand, négociant	-	*	-	+	-	*	-	-	*	*	-	-	+
-Garde	Archer, arbalétrier	+	-	+	+	-	+	-	+	*	-	-	*	-
+Garde	Archer, arbalétrier	+	-	+	+	-	+	-	+	*	-	-	*	+
 Garde	Fin limier	+	+	*	-	-	+	-	+	*	+	-	-	+
 Garde	Garde	*	-	+	+	+	-	-	+	+	+	-	+	+
 Garde	Geôlier	+	-	-	*	*	-	-	+	+	+	-	-	*
-Garde	Milicien	+	-	+	+	+	-	-	+	+	+	+	+
+Garde	Milicien	+	-	+	+	+	-	-	+	+	+	+	+	+
 Artiste	Acrobate, jongleur	-	-	-	+	+	*	-	*	+	+	+	-	+
 Artiste	Comédien, ventriloque	-	+	+	+	-	-	-	+	*	*	+	-	+
 Artiste	Dresseur d’animaux	+	-	-	+	+	-	-	+	+	+	*	+	*
@@ -36,7 +36,7 @@ Laborieux	Manouvrier	+	-	-	*	*	+	-	+	+	+	-	-	+
 Voyageur	Cartographe	-	*	-	+	-	*	-	-	*	+	+	-	+
 Voyageur	Guide-convoyeur	+	-	+	+	-	-	-	+	*	-	*	+	+
 Voyageur	Marin, navigateur	+	-	-	*	+	+	-	+	+	+	+	-	+
-Voyageur	Messager, courrier	+	+	-	+	-	-	-	*	+	+	*	-
+Voyageur	Messager, courrier	+	+	-	+	-	-	-	*	+	+	*	-	+
 Voyageur	Vagabond	+	-	+	*	-	-	-	*	+	+	*	-	+
 Serviteur	Cocher	+	-	+	+	-	+	-	+	+	+	+	+	+
 Serviteur	Ecuyer	+	-	+	*	+	+	-	+	-	-	+	-	*
@@ -56,7 +56,7 @@ Bandit	Racketteur	+	-	+	+	*	-	-	+	+	+	-	+	+
 Artisan	Charpentier	-	+	-	+	+	*	-	+	+	+	+	-	+
 Artisan	Chirurgien-barbier	-	+	-	+	+	*	-	-	*	*	-	-	+
 Artisan	Forgeron, armurier	+	+	-	*	*	*	-	-	-	+	-	-	+
-Artisan	Maçon	-	-	-	*	*	*	-	+	+	-	-	-	+
+Artisan	Maçon	+	-	-	*	*	*	-	+	+	-	-	-	+
 Artisan	Tisserand	-	+	-	+	-	*	-	+	*	*	-	-	+
 Ancien Vétéran	Archer, arbalétrier	+	-	+	+	+	-	-	+	*	-	-	*	+
 Ancien Vétéran	Artilleur	+	-	-	+	+	+	-	+	*	-	+	*	-
@@ -68,7 +68,7 @@ Lame à louer	Chasseur de primes	+	-	*	+	-	-	-	+	*	-	+	+	+
 Lame à louer	Garde du corps	*	-	-	*	*	-	-	+	+	-	-	-	*
 Lame à louer	Mercenaire	*	-	-	+	*	-	-	+	-	-	+	*	+
 Lame à louer	Spadassin, duelliste	*	-	-	+	+	-	-	+	+	+	-	+	*
-Érudit	Apothicaire, herboriste		-	*	-	+	-	+	-	-	*	+	*	-	+
+Érudit	Apothicaire, herboriste	-	*	-	+	-	+	-	-	*	+	*	-	+
 Érudit	Avoué	-	*	-	+	-	+	-	-	*	*	-	-	*
 Érudit	Médecin	-	*	-	+	-	*	-	-	+	*	-	-	*
 Érudit	Précepteur, professeur	-	*	-	+	-	+	-	-	+	*	+	-	*

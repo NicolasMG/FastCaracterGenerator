@@ -209,10 +209,15 @@ namespace FastCaracterGenerator
             }
 
             this.character = new Character();
-            GeneratNPC();
+            GeneratNPC(0);
         }
 
-        public void GeneratNPC()
+        internal void RerollStats(int value)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void GeneratNPC(int lv)
         {
             string cSexe = sexeList[random.Next(sexeList.Count)];
             string cNom;
@@ -264,13 +269,6 @@ namespace FastCaracterGenerator
             }
 
 
-            foreach(string stri in cBonusCarriere)
-            {
-                if(stri == "")
-                {
-
-                }
-            }
 
             string cTraitDeCaractère = TraitsPersonnalitéList[random.Next(TraitsPersonnalitéList.Count)];
 
@@ -320,6 +318,59 @@ namespace FastCaracterGenerator
                 }
             }
 
+            string currentString;
+            int valueInt = 0;
+            while (lv > 0)
+            {
+                valueInt = random.Next(cBonusCarriere.Count);
+                currentString = cBonusCarriere[valueInt];
+                if (currentString != "+2" || currentString != "*4")
+                {
+                    if (currentString == "+")
+                    {
+                        cBonusCarriere[valueInt] = "+1";
+                        cStats[valueInt] += 5;
+                        lv--;
+                        continue;
+                    }
+                    if (currentString == "+1")
+                    {
+                        cBonusCarriere[valueInt] = "+2";
+                        cStats[valueInt] += 5;
+                        lv--;
+                        continue;
+                    }
+                    if (currentString == "*")
+                    {
+                        cBonusCarriere[valueInt] = "*1";
+                        cStats[valueInt] += 5;
+                        lv--;
+                        continue;
+                    }
+                    if (currentString == "*1")
+                    {
+                        cBonusCarriere[valueInt] = "*2";
+                        cStats[valueInt] += 5;
+                        lv--;
+                        continue;
+                    }
+                    if (currentString == "*2")
+                    {
+                        cBonusCarriere[valueInt] = "*3";
+                        cStats[valueInt] += 5;
+                        lv--;
+                        continue;
+                    }
+                    if (currentString == "*3")
+                    {
+                        cBonusCarriere[valueInt] = "*4";
+                        cStats[valueInt] += 5;
+                        lv--;
+                        continue;
+                    }
+                }
+            }
+            
             if (cStats[6] >= 19 || cCarriere[0] == "Occultiste"
                     || cCarriere[1] == "Initié, Prêtre" || cCarriere[1] == "Chasseur de sorcières")
             {
@@ -345,7 +396,7 @@ namespace FastCaracterGenerator
             {
                 cStats[6] = 0;
             }
-
+            
             character.nom = cNom;
             character.surnom = cNurnom;
             character.peuple = cPeuple[0];

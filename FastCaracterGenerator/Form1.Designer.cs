@@ -32,6 +32,10 @@
             this.FastRender = new System.Windows.Forms.Label();
             this.QuickAccess_Button = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
+            this.Label = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             this.SuspendLayout();
             // 
             // Randomize
@@ -63,7 +67,7 @@
             // 
             this.QuickAccess_Button.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.QuickAccess_Button.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.QuickAccess_Button.Location = new System.Drawing.Point(1052, 499);
+            this.QuickAccess_Button.Location = new System.Drawing.Point(1052, 549);
             this.QuickAccess_Button.Name = "QuickAccess_Button";
             this.QuickAccess_Button.Size = new System.Drawing.Size(120, 50);
             this.QuickAccess_Button.TabIndex = 3;
@@ -74,26 +78,63 @@
             // 
             this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(926, 499);
+            this.button1.Location = new System.Drawing.Point(926, 549);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(120, 50);
             this.button1.TabIndex = 4;
             this.button1.Text = "Edit Ressources";
             this.button1.UseVisualStyleBackColor = true;
             // 
+            // numericUpDown1
+            // 
+            this.numericUpDown1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.numericUpDown1.Font = new System.Drawing.Font("Courier New", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.numericUpDown1.Location = new System.Drawing.Point(981, 24);
+            this.numericUpDown1.Name = "numericUpDown1";
+            this.numericUpDown1.Size = new System.Drawing.Size(65, 31);
+            this.numericUpDown1.TabIndex = 5;
+            // 
+            // Label
+            // 
+            this.Label.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.Label.AutoSize = true;
+            this.Label.Font = new System.Drawing.Font("Courier New", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label.Location = new System.Drawing.Point(893, 23);
+            this.Label.Name = "Label";
+            this.Label.Size = new System.Drawing.Size(82, 27);
+            this.Label.TabIndex = 6;
+            this.Label.Text = "Level";
+            this.Label.Click += new System.EventHandler(this.label1_Click_1);
+            // 
+            // button2
+            // 
+            this.button2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Location = new System.Drawing.Point(800, 549);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(120, 50);
+            this.button2.TabIndex = 7;
+            this.button2.Text = "Reroll Stats";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
             // Generator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1184, 561);
+            this.ClientSize = new System.Drawing.Size(1184, 611);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.Label);
+            this.Controls.Add(this.numericUpDown1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.QuickAccess_Button);
             this.Controls.Add(this.FastRender);
             this.Controls.Add(this.Randomize);
-            this.MinimumSize = new System.Drawing.Size(1200, 600);
+            this.MinimumSize = new System.Drawing.Size(1200, 650);
             this.Name = "Generator";
             this.Text = "QuickGenerator";
             this.Load += new System.EventHandler(this.Generator_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -105,6 +146,9 @@
         private System.Windows.Forms.Label FastRender;
         private System.Windows.Forms.Button QuickAccess_Button;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.NumericUpDown numericUpDown1;
+        private System.Windows.Forms.Label Label;
+        private System.Windows.Forms.Button button2;
     }
 }
 

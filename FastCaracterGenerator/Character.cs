@@ -78,6 +78,7 @@ namespace FastCaracterGenerator
                 returnString += "Carriere : " + carriere;
             }
             returnString += System.Environment.NewLine;
+            returnString += System.Environment.NewLine;
 
             if (sexe != null)
             {

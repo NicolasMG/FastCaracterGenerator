@@ -20,7 +20,7 @@ namespace FastCaracterGenerator
             InitializeComponent();
 
             generatorName = new GeneratorName();
-            generatorName.GeneratNPC();
+            generatorName.GeneratNPC(0);
             FastRender.Text = generatorName.AnswerBuilderToString();
         }
 
@@ -71,7 +71,18 @@ namespace FastCaracterGenerator
 
         private void Randomize_Click(object sender, EventArgs e)
         {
-            generatorName.GeneratNPC();
+            generatorName.GeneratNPC((int)numericUpDown1.Value);
+            FastRender.Text = generatorName.AnswerBuilderToString();
+        }
+
+        private void label1_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            generatorName.RerollStats((int)numericUpDown1.Value);
             FastRender.Text = generatorName.AnswerBuilderToString();
         }
     }
