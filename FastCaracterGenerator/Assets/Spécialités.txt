@@ -1,0 +1,13 @@
+Combat: Épées / Espadons / Haches & Masses / Bâtons / Mains nues / Couteaux / Armes d’hast / Fléaux
+Connaissances: Histoire / Légendes / Arts / Lettres /Noblesse / Droit et usages /Religions
+Discrétion: Filature / Déplacement silencieux / Se cacher / Dissimulation d’objets
+Endurance: Souffle / Résistance aux poisons / Résistance aux maladies / Résistance à l’alcool / Résistance à la faim
+Force: Canotage / Intimidation / Levage / Résistance aux coups / Force de frappe
+Habileté: Crochetage / Noeuds / Travail du bois / Travail du métal / Travail de la pierre / Travail du tissu / Premiers soins
+Magie: Air / Eau / Feu / Terre / Nécromancie / Démonisme / Illusions / Divination / Protection
+Mouvement: Couse / Contorsion / Escalade / Equitation / Réflexes / Natation / Saut
+Perception: Repérage / Écoute / Odorat-goût / Vigilance / Fouille / Orientation
+Sociabilité: Charme / Négociation / Diplomatie / Renseignements / Etiquette / Discours
+Survie: Botanique / Zoologie / Piégeage / Pistage / Premiers soins
+Tir: Arcs / Arbalètes / Couteaux de lancer / Fronde / Javelots
+Volonté: Courage / Résistance à la magie / Commandement

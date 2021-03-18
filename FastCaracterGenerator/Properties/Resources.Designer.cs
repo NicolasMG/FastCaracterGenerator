@@ -8,10 +8,10 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace FastCaracterGenerator.Properties
-{
-
-
+namespace FastCaracterGenerator.Properties {
+    using System;
+    
+    
     /// <summary>
     ///   A strongly-typed resource class, for looking up localized strings, etc.
     /// </summary>
@@ -19,52 +19,371 @@ namespace FastCaracterGenerator.Properties
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "15.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class Resources
-    {
-
+    internal class Resources {
+        
         private static global::System.Resources.ResourceManager resourceMan;
-
+        
         private static global::System.Globalization.CultureInfo resourceCulture;
-
+        
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal Resources()
-        {
+        internal Resources() {
         }
-
+        
         /// <summary>
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager
-        {
-            get
-            {
-                if ((resourceMan == null))
-                {
+        internal static global::System.Resources.ResourceManager ResourceManager {
+            get {
+                if (object.ReferenceEquals(resourceMan, null)) {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("FastCaracterGenerator.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
             }
         }
-
+        
         /// <summary>
         ///   Overrides the current thread's CurrentUICulture property for all
         ///   resource lookups using this strongly typed resource class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture
-        {
-            get
-            {
+        internal static global::System.Globalization.CultureInfo Culture {
+            get {
                 return resourceCulture;
             }
-            set
-            {
+            set {
                 resourceCulture = value;
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Aigle	0	0	0	0	0	0	0	0	0	0	0	0	+5	Ambitieux, Autoritaire, Discipliné, Hautain, Impitoyable, Loyal, Pragmatique, Prétentieux, Suspicieux, Sûr de soi.
+        ///Chat	0	0	+5	0	/-5	0	0	+5	0	0	0	0	/-5	Cruel, Curieux, Dépravé, Egoïste, Elégant, Hautain, Moqueur, Paresseux, Rusé, Séducteur.
+        ///Chien	0	0	-5	/+5	0	0	0	0	/+5	+5	0	0	0	Altruiste, Courageux, Crédule, Gentil, Jaloux, Loyal, Optimiste, Passionnel, Sensible, Spontané.
+        ///Coq	+5	/-5	/-5	0	0	0	0	0	0	+5	0	0	0	Agressif, Autoritaire, Courageux, Impulsif, Intolérant, Jaloux,  [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Archétypes {
+            get {
+                return ResourceManager.GetString("Archétypes", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap arrow {
+            get {
+                object obj = ResourceManager.GetObject("arrow", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Commerçant	Aubergiste, Tavernier	+	+	-	*	+	+	-	-	+	*	-	-	+
+        ///Commerçant	Charlatan, escroc	-	+	+	-	-	+	-	+	+	*	+	+	+
+        ///Commerçant	Colporteur, itinérant	+	+	+	+	-	-	-	+	+	*	+	-	+
+        ///Commerçant	Contrebandier, receleur	+	-	*	+	-	+	-	+	+	+	+	-	+
+        ///Commerçant	Marchand, négociant	-	*	-	+	-	*	-	-	*	*	-	-	+
+        ///Garde	Archer, arbalétrier	+	-	+	+	-	+	-	+	*	-	-	*	-
+        ///Garde	Fin limier	+	+	*	-	-	+	-	+	*	+	-	-	+
+        ///Garde	Garde	*	-	+	+	+	-	-	+	+	+	-	+	+
+        ///Garde	Geôlier	+	-	-	*	*	-	-	+	+	+	-	-	*
+        ///Garde	Milicien	+	-	+	+	+	-	-	+	+	+	+	+        /// [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Carrières {
+            get {
+                return ResourceManager.GetString("Carrières", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Lona
+        ///Azilia
+        ///Damaé
+        ///Jémina
+        ///Aryline
+        ///Shauna
+        ///Isleen
+        ///Cadilia
+        ///Bélora
+        ///Cécinia
+        ///Aïlis
+        ///Anwen
+        ///Laïna
+        ///Karilda
+        ///Lynelle
+        ///Tya
+        ///Hazel
+        ///Evanna
+        ///Délianne
+        ///Kerylin
+        ///Liwen
+        ///Adaïre
+        ///Meliana
+        ///Calise
+        ///Eoline
+        ///Zyna
+        ///Dorianne
+        ///Améline
+        ///Caythlinn
+        ///Thalia
+        ///Jaïda
+        ///Kailyn
+        ///Iris
+        ///Tianna
+        ///Shanael
+        ///Nolyn
+        ///Kaeli
+        ///Deïna
+        ///Lynaïs
+        ///Leocina
+        ///Beonysse
+        ///Jyna
+        ///Esterel
+        ///Drivelys
+        ///Ellin
+        ///Shynnae
+        ///Nalys
+        ///Dryla
+        ///Vama
+        ///Ashaël.
+        /// </summary>
+        internal static string HumanFemaleNames {
+            get {
+                return ResourceManager.GetString("HumanFemaleNames", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Lizyo
+        ///Alden
+        ///Darian
+        ///Lothar
+        ///Holrik
+        ///Lorn
+        ///Varko
+        ///Bran
+        ///Rovhal
+        ///Silas
+        ///Bardik
+        ///Occlinn
+        ///Dario
+        ///Jir
+        ///Coréus
+        ///Brianon
+        ///Issel
+        ///Orlainn
+        ///Balion
+        ///Auris
+        ///Abelann
+        ///Balian
+        ///Ligier
+        ///Hazellias
+        ///Cael
+        ///Jalko
+        ///Galien
+        ///Laurin
+        ///Mandias
+        ///Valedan
+        ///Thelinos
+        ///Pereym
+        ///Rodrick
+        ///Kandjar
+        ///Delvas
+        ///Galid
+        ///Boren
+        ///Calios
+        ///Valkyr
+        ///Filvan
+        ///Joran
+        ///Yvin
+        ///Obel
+        ///Errain
+        ///Beleris
+        ///Djern
+        ///Sagreval
+        ///Thorgern
+        ///Dinas
+        ///Vornan.
+        /// </summary>
+        internal static string HumanMaleNames {
+            get {
+                return ResourceManager.GetString("HumanMaleNames", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Amitié :
+        ///Amour :
+        ///Liberté :
+        ///Renommée :
+        ///Cupidité :
+        ///Statut :
+        ///Expertise :
+        ///Soif de voyages/de nouveauté :
+        ///Pouvoir :
+        ///Relogion/spiritualité :.
+        /// </summary>
+        internal static string MotivationAmbitions {
+            get {
+                return ResourceManager.GetString("MotivationAmbitions", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Religion/spiritualité :
+        ///Les faibles/la charité :
+        ///Droits des non-humains :
+        ///Politique locals :
+        ///Renverser la société :
+        ///Crime :
+        ///Émanciaption :
+        ///Capitalisme :
+        ///Soutien de la société :.
+        /// </summary>
+        internal static string MotivationCauses {
+            get {
+                return ResourceManager.GetString("MotivationCauses", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Lieu d&apos;origine :
+        ///Animal de compagnie :
+        ///Ami d&apos;enfance :
+        ///Camarade :
+        ///Frères et soeurs :
+        ///Mentor :
+        ///Parents :
+        ///Famille/clan étendu :
+        ///Vieil ennemi :.
+        /// </summary>
+        internal static string MotivationRelations {
+            get {
+                return ResourceManager.GetString("MotivationRelations", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Addiction :
+        ///Trahision :
+        ///Chantage :
+        ///Prime :
+        ///Criminel :
+        ///Dette :
+        ///Obligé :
+        ///Famille :
+        ///Faveur :
+        ///Serment :
+        ///Obsession :
+        ///Responsabilité :.
+        /// </summary>
+        internal static string Obligations {
+            get {
+                return ResourceManager.GetString("Obligations", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Humain	25	25	25	25	25	25	00	25	25	25	25	25	25
+        ///Humain de Balam	25	25	25	25	25	25	00	25	25	25	25	25	25
+        ///Elfe	25	25	25	20	20	25	00	30	25	25	25	25	30
+        ///Elfe Noir	25	25	25	20	20	30	00	30	25	25	25	25	20
+        ///Orque	30	20	25	30	25	25	00	25	25	20	25	25	25
+        ///Nain	25	25	25	30	30	30	00	20	20	20	25	25	25
+        ///Draken	25	30	20	25	25	25	00	25	20	25	25	25	30.
+        /// </summary>
+        internal static string Peuples {
+            get {
+                return ResourceManager.GetString("Peuples", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Combat: Épées / Espadons / Haches &amp; Masses / Bâtons / Mains nues / Couteaux / Armes d’hast / Fléaux
+        ///Connaissances: Histoire / Légendes / Arts / Lettres /Noblesse / Droit et usages /Religions
+        ///Discrétion: Filature / Déplacement silencieux / Se cacher / Dissimulation d’objets
+        ///Endurance: Souffle / Résistance aux poisons / Résistance aux maladies / Résistance à l’alcool / Résistance à la faim
+        ///Force: Canotage / Intimidation / Levage / Résistance aux coups / Force de frappe
+        ///Habileté: Crochetage / Noeuds / Tra [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Spécialités {
+            get {
+                return ResourceManager.GetString("Spécialités", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Combat
+        ///Connaissances
+        ///Discrétion
+        ///Endurance
+        ///Force
+        ///Habilité
+        ///Magie
+        ///Mouvement
+        ///Perception
+        ///Scoiabilité
+        ///Survie
+        ///Tir
+        ///Volonté
+        ///Spécial.
+        /// </summary>
+        internal static string Stats {
+            get {
+                return ResourceManager.GetString("Stats", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Colérique
+        ///Morose
+        ///Guilleret
+        ///Allergique
+        ///Suspicieux
+        ///Agité
+        ///Malodorant
+        ///Serviable
+        ///Facilement distrait
+        ///Vaniteux
+        ///Voix râpeuse
+        ///Taiseux
+        ///Obséquieux
+        ///Habits démodés
+        ///Puéril
+        ///Bavard
+        ///Humour cinglant
+        ///Tête en l&apos;air
+        ///Glouton
+        ///Tenues extravagantes
+        ///S&apos;ennuie vite
+        ///Toux violente
+        ///Xénophobe
+        ///Boiteux
+        ///Facilement effrayé
+        ///Jovial
+        ///Tic nerveux
+        ///Obèse
+        ///Agressif
+        ///Essoufflé
+        ///Romantique
+        ///Condescendant
+        ///Manchot
+        ///Écarts de langage
+        ///Très âgé
+        ///Voix inhabituelle
+        ///Phobie des microbes
+        ///Glousse tout le temps
+        ///Naïf
+        ///Déteste les ét [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string TraitsPersonnalité {
+            get {
+                return ResourceManager.GetString("TraitsPersonnalité", resourceCulture);
             }
         }
     }

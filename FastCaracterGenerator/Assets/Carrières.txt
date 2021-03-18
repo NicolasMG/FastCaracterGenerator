@@ -1,0 +1,80 @@
+Commerçant	Aubergiste, Tavernier	+	+	-	*	+	+	-	-	+	*	-	-	+
+Commerçant	Charlatan, escroc	-	+	+	-	-	+	-	+	+	*	+	+	+
+Commerçant	Colporteur, itinérant	+	+	+	+	-	-	-	+	+	*	+	-	+
+Commerçant	Contrebandier, receleur	+	-	*	+	-	+	-	+	+	+	+	-	+
+Commerçant	Marchand, négociant	-	*	-	+	-	*	-	-	*	*	-	-	+
+Garde	Archer, arbalétrier	+	-	+	+	-	+	-	+	*	-	-	*	-
+Garde	Fin limier	+	+	*	-	-	+	-	+	*	+	-	-	+
+Garde	Garde	*	-	+	+	+	-	-	+	+	+	-	+	+
+Garde	Geôlier	+	-	-	*	*	-	-	+	+	+	-	-	*
+Garde	Milicien	+	-	+	+	+	-	-	+	+	+	+	+
+Artiste	Acrobate, jongleur	-	-	-	+	+	*	-	*	+	+	+	-	+
+Artiste	Comédien, ventriloque	-	+	+	+	-	-	-	+	*	*	+	-	+
+Artiste	Dresseur d’animaux	+	-	-	+	+	-	-	+	+	+	*	+	*
+Artiste	Lanceur de couteaux	+	-	-	+	+	+	-	-	+	+	+	*	+
+Artiste	Ménestrel, musicien	-	+	+	+	-	+	-	+	*	*	+	-	-
+Noble	courtisan	-	*	+	+	-	+	-	-	*	*	-	-	+
+Noble	chevalier	*	-	-	+	+	-	-	*	-	+	-	+	*
+Noble	gentilhomme	+	*	+	+	-	-	-	+	+	*	-	-	+
+Noble	dame	+	+	+	*	+	-	-	+	-	*	-	-	+
+Noble	dépravé	-	-	*	-	-	*	-	*	*	-	-	+	+
+Roublard	Cambrioleur	-	-	*	-	-	*	-	*	*	-	-	+	+
+Roublard	Espion	-	+	*	-	-	+	-	+	*	*	-	-	+
+Roublard	Faussaire	-	+	+	+	-	*	-	-	*	*	-	-	+
+Roublard	Joueur professionnel	-	+	+	-	-	*	-	+	*	*	-	-	+
+Roublard	Tire-laine	-	-	*	+	-	*	-	*	*	+	-	-	-
+Ordres	Moine	-	*	+	+	-	+	-	-	+	+	+	-	*
+Ordres	Initié, Prêtre	-	*	+	+	-	-	*	-	+	+	-	-	*
+Ordres	Chasseur de sorcières	+	+	+	+	+	-	+	-	+	-	-	+	*
+Ordres	Fanatique	+	+	-	*	+	-	-	+	-	+	-	+	*
+Ordres	Templier	*	+	-	+	+	-	-	+	-	-	+	+	*
+Laborieux	Paysan	+	-	-	*	+	+	-	+	+	+	+	-	+
+Laborieux	Bûcheron	+	-	-	*	*	+	-	+	-	-	*	-	+
+Laborieux	Charbonnier	+	-	+	*	+	+	-	+	-	-	*	-	+
+Laborieux	Journalier	+	-	-	*	*	+	-	+	-	+	+	-	+
+Laborieux	Manouvrier	+	-	-	*	*	+	-	+	+	+	-	-	+
+Voyageur	Cartographe	-	*	-	+	-	*	-	-	*	+	+	-	+
+Voyageur	Guide-convoyeur	+	-	+	+	-	-	-	+	*	-	*	+	+
+Voyageur	Marin, navigateur	+	-	-	*	+	+	-	+	+	+	+	-	+
+Voyageur	Messager, courrier	+	+	-	+	-	-	-	*	+	+	*	-
+Voyageur	Vagabond	+	-	+	*	-	-	-	*	+	+	*	-	+
+Serviteur	Cocher	+	-	+	+	-	+	-	+	+	+	+	+	+
+Serviteur	Ecuyer	+	-	+	*	+	+	-	+	-	-	+	-	*
+Serviteur	Esclave évadé	+	-	+	*	+	+	-	+	-	-	+	-	*
+Serviteur	Palefrenier	-	-	+	+	-	+	-	+	*	*	+	-	+
+Serviteur	Valet, domestique	-	+	+	+	-	+	-	+	*	*	-	-	+
+Misereux	Chiffonnier	+	-	+	*	+	+	-	+	-	-	*	-	+
+Misereux	Ermite	-	+	+	*	-	+	-	+	-	-	*	-	*
+Misereux	Mendiant	+	-	*	*	-	+	-	+	+	+	+	-	-
+Misereux	Pilleur de tombes	+	-	+	*	+	+	-	+	-	-	+	-	*
+Misereux	Prostituée	-	-	+	*	-	+	-	+	*	*	-	-	+
+Bandit	Agitateur, anarchiste	+	+	+	+	-	+	-	+	+	*	-	-	+
+Bandit	Bandit de grand chemin	+	-	+	+	-	-	-	+	+	+	*	+	+
+Bandit	Hors-la-loi, rebelle	+	-	*	+	-	-	-	+	-	*	+	+	+
+Bandit	Pirate	*	-	+	*	+	+	-	+	-	-	+	+	-
+Bandit	Racketteur	+	-	+	+	*	-	-	+	+	+	-	+	+
+Artisan	Charpentier	-	+	-	+	+	*	-	+	+	+	+	-	+
+Artisan	Chirurgien-barbier	-	+	-	+	+	*	-	-	*	*	-	-	+
+Artisan	Forgeron, armurier	+	+	-	*	*	*	-	-	-	+	-	-	+
+Artisan	Maçon	-	-	-	*	*	*	-	+	+	-	-	-	+
+Artisan	Tisserand	-	+	-	+	-	*	-	+	*	*	-	-	+
+Ancien Vétéran	Archer, arbalétrier	+	-	+	+	+	-	-	+	*	-	-	*	+
+Ancien Vétéran	Artilleur	+	-	-	+	+	+	-	+	*	-	+	*	-
+Ancien Vétéran	Soldat, cavalerie	*	-	-	+	+	-	-	*	+	-	+	+	+
+Ancien Vétéran	Soldat, éclaireur	+	-	*	+	-	-	-	+	*	-	*	+	-
+Ancien Vétéran	Soldat, infanterie	*	-	-	*	*	-	-	+	-	-	+	-	*
+Lame à louer	Assassin, tueur à gages	*	-	*	-	-	+	-	+	+	-	-	*	+
+Lame à louer	Chasseur de primes	+	-	*	+	-	-	-	+	*	-	+	+	+
+Lame à louer	Garde du corps	*	-	-	*	*	-	-	+	+	-	-	-	*
+Lame à louer	Mercenaire	*	-	-	+	*	-	-	+	-	-	+	*	+
+Lame à louer	Spadassin, duelliste	*	-	-	+	+	-	-	+	+	+	-	+	*
+Érudit	Apothicaire, herboriste		-	*	-	+	-	+	-	-	*	+	*	-	+
+Érudit	Avoué	-	*	-	+	-	+	-	-	*	*	-	-	*
+Érudit	Médecin	-	*	-	+	-	*	-	-	+	*	-	-	*
+Érudit	Précepteur, professeur	-	*	-	+	-	+	-	-	+	*	+	-	*
+Érudit	Scribe, écrivain public	-	*	-	+	-	+	-	-	+	*	+	-	*
+Occultiste	Apprenti-alchimiste	-	*	-	+	-	+	*	-	+	+	+	-	+
+Occultiste	Apprenti-élémentaliste	-	*	-	+	+	-	*	-	+	-	*	-	+
+Occultiste	Apprenti-sorcier	-	*	+	-	-	+	*	-	+	+	+	-	+
+Occultiste	Astrologue, devin	-	*	-	-	-	+	*	-	+	+	+	-	*
+Occultiste	Ovate (jeune druide)	-	+	-	+	-	+	*	-	+	-	*	-	*

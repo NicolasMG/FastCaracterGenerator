@@ -1,0 +1,20 @@
+Aigle	0	0	0	0	0	0	0	0	0	0	0	0	+5	Ambitieux, Autoritaire, Discipliné, Hautain, Impitoyable, Loyal, Pragmatique, Prétentieux, Suspicieux, Sûr de soi.
+Chat	0	0	+5	0	/-5	0	0	+5	0	0	0	0	/-5	Cruel, Curieux, Dépravé, Egoïste, Elégant, Hautain, Moqueur, Paresseux, Rusé, Séducteur.
+Chien	0	0	-5	/+5	0	0	0	0	/+5	+5	0	0	0	Altruiste, Courageux, Crédule, Gentil, Jaloux, Loyal, Optimiste, Passionnel, Sensible, Spontané.
+Coq	+5	/-5	/-5	0	0	0	0	0	0	+5	0	0	0	Agressif, Autoritaire, Courageux, Impulsif, Intolérant, Jaloux, Passionnel, Prétentieux, Séducteur, Sûr de soi
+Corbeau	0	0	/+5	0	0	0	0	0	0	-5	/+5	0	+5	Critique, Cruel, Distant, Intimidant, Mystérieux, Pragmatique, Rancunier, Sarcastique, Solitaire, Spirituel
+Fourmi	0	0	0	+5	0	+5	0	0	0	0	0	0	+5	Conservateur, Débrouillard, Discipliné, Inventif, Loyal, Méticuleux, Rationnel, Suiveur, Travailleur, Donneur-de-leçon
+Hibou	0	+5	0	0	0	0	0	0	0	0	0	0	0	Critique, Curieux, Donneur-de-leçon, Insatisfait, Intellectuel, Inventif, Patient, Raisonneur, Rationnel, Sérieux
+Lapin	-5	0	+5	0	-5	0	0	+5	+5	0	0	0	0	Amical, Courtois, Crédule, Curieux, Gentil, Lâche, Peureux, Réservé, Sensible, Suspicieux
+Lion	+5	-5	-5	0	+5	0	0	0	0	+5	0	0	0	Ambitieux, Autoritaire, Charismatique, Courageux, Egoïste, Fier, Jaloux, Paresseux, Sanguinaire, Sûr de soi
+Loup	+5	0	0	0	0	0	0	0	/+5	-5	/+5	0	0	Cynique, Débrouillard, Distant, Honorable, Passionnel, Pragmatique, Rancunier, Sérieux, Solitaire, Violent
+Mouton	-5	0	0	0	0	+5	0	0	+5	+5	0	0	-5	Suiveur, Réservé, Conservateur, Attentif, Conformiste, Courtois, Raisonneur, Travailleur, Amical, Suspicieux
+Ours	0	0	0	0	+10	0	0	0	0	-5	0	0	0	Amical, Attentif, Conservateur, Courageux, Curieux, Intimidant, Loyal, Protecteur, Réservé, Sentimental
+Porc	0	/-5	0	+5	+5	0	0	/-5	0	0	0	0	0	Amical, Autoritaire, Dépravé, Fort-en-gueule, Grossier, Intolérant, Jaloux, Libidineux, Sale, Spontané
+Rat	0	0	+5	0	-5	0	0	0	0	0	/+5	0	/+5	Avare, Cruel, Courtois, Débrouillard, Déloyal, Froid, Inventif, Lâche, Malhonnête, Rancunier
+Renard	/-5	0	0	0	/-5	0	0	+5	0	+5	0	0	0	Amical, Courtois, Débrouillard, Déloyal, Egoïste, Inventif, Malhonnête, Moqueur, Rusé, Spontané
+Serpent	0	/+5	0	0	0	0	0	/-5	/-5	/+5	0	0	+5	Déloyal, Discipliné, Froid, Pragmatique, Manipulateur, Mystérieux, Patient, Spirituel, Suspicieux
+Singe	/-5	0	0	0	0	0	0	+5	0	+5	0	0	/-5	Curieux, Débrouillard, Déloyal, Infantile, Jovial, Peureux, Rebelle, Rusé, Sarcastique, Spontané
+Souris	-5	0	+10	0	-5	0	0	0	0	+5	0	0	0	Altruiste, Courtois, Gentil, Infantile, Inventif, Loyal, Peureux, Réservé, Sensible, Suiveur
+Taureau	+5	-5	-5	0	+10	0	0	0	0	0	0	0	0	Agressif, Dépravé, Fier, Grossier, Honorable, Intimidant, Jovial, Optimiste, Spontané, Têtu
+Vautour	0	+5	0	+5	0	0	0	0	0	-5	0	0	0	Critique, Cruel, Intimidant, Moqueur, Mystérieux, Patient, Pragmatique, Rancunier, Sarcastique, Suspicieux

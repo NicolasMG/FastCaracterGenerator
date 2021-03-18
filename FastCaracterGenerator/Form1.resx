@@ -117,44 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Archétypes" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Archétypes.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
-  <data name="arrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\arrow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Carrières" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Carrières.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
-  <data name="HumanFemaleNames" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\HumanFemaleNames.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
-  <data name="HumanMaleNames" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\HumanMaleNames.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
-  <data name="MotivationAmbitions" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\MotivationAmbitions.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
-  <data name="MotivationCauses" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\MotivationCauses.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
-  <data name="MotivationRelations" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\MotivationRelations.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
-  <data name="Obligations" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Obligations.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
-  <data name="Peuples" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Peuples.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
-  </data>
-  <data name="Spécialités" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Spécialités.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
-  <data name="Stats" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Stats.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
-  <data name="TraitsPersonnalité" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\TraitsPersonnalité.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
 </root>

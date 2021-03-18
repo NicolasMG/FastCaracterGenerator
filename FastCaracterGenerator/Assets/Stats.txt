@@ -1,0 +1,13 @@
+Combat
+Connaissances
+Discrétion
+Endurance
+Force
+Habilité
+Magie
+Mouvement
+Perception
+Scoiabilité
+Survie
+Tir
+Volonté
