@@ -85,5 +85,10 @@ namespace FastCaracterGenerator
             generatorName.RerollStats((int)numericUpDown1.Value);
             FastRender.Text = generatorName.AnswerBuilderToString();
         }
+
+        private void numericUpDown1_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -217,14 +217,10 @@ namespace FastCaracterGenerator
             }
 
             returnString += System.Environment.NewLine;
-
-            //returnString += "\u25A0";
-            //returnString += " ";
-            //returnString += "\u25CB";
-            //returnString += " ";
-            //returnString += "\u25A1";
             returnString += System.Environment.NewLine;
-            
+            returnString += "Points de Fortune : " + ptsFortune;
+
+
             return returnString;
         }
     }

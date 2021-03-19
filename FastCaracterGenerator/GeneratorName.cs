@@ -212,11 +212,6 @@ namespace FastCaracterGenerator
             GeneratNPC(0);
         }
 
-        internal void RerollStats(int value)
-        {
-            throw new NotImplementedException();
-        }
-
         public void GeneratNPC(int lv)
         {
             string cSexe = sexeList[random.Next(sexeList.Count)];
@@ -416,6 +411,163 @@ namespace FastCaracterGenerator
             character.yeux = "-";
             character.description = "-";
             character.traitsDeCaractère = cTraitDeCaractère;
+        }
+
+        public void RerollStats(int lv)
+        {
+            string sepTab = "\t";
+            string[] cArchétype = archétypesList[random.Next(archétypesList.Count)].Split(sepTab.ToCharArray());
+            string sepVirgule = ",";
+            string[] traits = cArchétype[cArchétype.Length - 1].Split(sepVirgule.ToCharArray());
+            
+            bool positive = false;
+            bool negative = false;
+            string first2char;
+            string[] cPeuple = peuplesList[random.Next(0, 2)].Split(sepTab.ToCharArray());
+
+            for (int i = 0; i < cStats.Count; i++)
+            {
+                cStats[i] = Int32.Parse(cPeuple[i + 1]) + random.Next(1, 11) + random.Next(1, 11);
+                if (cArchétype[i + 1].Length > 1)
+                {
+                    first2char = cArchétype[i + 1].Substring(0, 2);
+                }
+                else
+                {
+                    first2char = "";
+                }
+
+                if (first2char == "/+")
+                {
+                    if (positive || random.Next(0, 2) == 0)
+                    {
+                        cStats[i] += Int32.Parse(cArchétype[i + 1].Substring(1, 2));
+                    }
+                    else
+                    {
+                        positive = true;
+                    }
+                }
+                else
+                {
+                    if (first2char == "/-")
+                    {
+                        if (negative || random.Next(0, 2) == 0)
+                        {
+                            cStats[i] += Int32.Parse(cArchétype[i + 1].Substring(1, 2));
+                        }
+                        else
+                        {
+                            negative = true;
+                        }
+                    }
+                    else
+                    {
+                        cStats[i] += Int32.Parse(cArchétype[i + 1]);
+                    }
+                }
+            }
+
+            string[] cCarriere= { };
+            foreach (string str in carrièresList)
+            {
+                if(character.carriere == str.Split(sepTab.ToCharArray())[0] +", " + str.Split(sepTab.ToCharArray())[1])
+                {
+                    cCarriere = str.Split(sepTab.ToCharArray());
+                    break;
+                }
+            }
+
+            //string[] cCarriere = carrièresList[random.Next(carrièresList.Count)].Split(sepTab.ToCharArray());
+            List<string> cBonusCarriere = new List<string>();
+            for (int i = 2; i < cCarriere.Length; i++)
+            {
+                cBonusCarriere.Add(cCarriere[i]);
+            }
+            string currentString;
+            int valueInt = 0;
+            while (lv > 0)
+            {
+                valueInt = random.Next(cBonusCarriere.Count);
+                currentString = cBonusCarriere[valueInt];
+                if (currentString != "+2" || currentString != "*4")
+                {
+                    if (currentString == "+")
+                    {
+                        cBonusCarriere[valueInt] = "+1";
+                        cStats[valueInt] += 5;
+                        lv--;
+                        continue;
+                    }
+                    if (currentString == "+1")
+                    {
+                        cBonusCarriere[valueInt] = "+2";
+                        cStats[valueInt] += 5;
+                        lv--;
+                        continue;
+                    }
+                    if (currentString == "*")
+                    {
+                        cBonusCarriere[valueInt] = "*1";
+                        cStats[valueInt] += 5;
+                        lv--;
+                        continue;
+                    }
+                    if (currentString == "*1")
+                    {
+                        cBonusCarriere[valueInt] = "*2";
+                        cStats[valueInt] += 5;
+                        lv--;
+                        continue;
+                    }
+                    if (currentString == "*2")
+                    {
+                        cBonusCarriere[valueInt] = "*3";
+                        cStats[valueInt] += 5;
+                        lv--;
+                        continue;
+                    }
+                    if (currentString == "*3")
+                    {
+                        cBonusCarriere[valueInt] = "*4";
+                        cStats[valueInt] += 5;
+                        lv--;
+                        continue;
+                    }
+                }
+            }
+
+
+            if (cStats[6] >= 19 || cCarriere[0] == "Occultiste"
+                    || cCarriere[1] == "Initié, Prêtre" || cCarriere[1] == "Chasseur de sorcières")
+            {
+                int value = random.Next(5, 10) + random.Next(5, 10) +
+                    random.Next(5, 10) + random.Next(5, 10) + random.Next(5, 10);
+                cStats[6] = value;
+                int val = 6;
+                while (value > 0)
+                {
+                    while (val == 6)
+                    {
+                        val = random.Next(0, cStats.Count);
+                    }
+                    if (cStats[val] > 15)
+                    {
+                        cStats[val]--;
+                        value--;
+                    }
+                    val = random.Next(0, cStats.Count);
+                }
+            }
+            else
+            {
+                cStats[6] = 0;
+            }
+            character.caracteristiques = cStats;
+            character.bonusCarriere = cBonusCarriere;
+            character.PV = cStats[4] / 5 + cStats[3] / 5 + cStats[12] / 10;
+            character.ptsFortune = cStats[12] / 5;
+            character.bonusForce = cStats[4] / 10;
         }
 
         public string AnswerBuilderToString()
