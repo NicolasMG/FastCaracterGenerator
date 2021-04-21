@@ -255,16 +255,13 @@ namespace FastCaracterGenerator
 
             traitsForChar += ", " + str;
             string[] cPeuple = peuplesList[random.Next(0,2)].Split(sepTab.ToCharArray());
-            //string[] cPeuple = peuplesList[random.Next(peuplesList.Count)].Split(sepTab.ToCharArray());
+            /*string[]*/ cPeuple = peuplesList[random.Next(peuplesList.Count)].Split(sepTab.ToCharArray());
             string[] cCarriere = carrièresList[random.Next(carrièresList.Count)].Split(sepTab.ToCharArray());
             List<string> cBonusCarriere = new List<string>();
             for (int i = 2; i< cCarriere.Length; i++)
             {
                 cBonusCarriere.Add(cCarriere[i]);
             }
-
-
-
             string cTraitDeCaractère = TraitsPersonnalitéList[random.Next(TraitsPersonnalitéList.Count)];
 
             bool positive = false;
@@ -387,11 +384,41 @@ namespace FastCaracterGenerator
                     val = random.Next(0, cStats.Count);
                 }
             }
+            
             else
             {
-                cStats[6] = 0;
+
+                if (cPeuple[0].ToString() == "Elfe" || cPeuple[0].ToString() == "Elfe Noir")
+                {
+                    cStats[6] = int.Parse(cPeuple[7]);
+                }
+                else
+                {
+                    cStats[6] = 0;
+                }
+                
             }
-            
+            if (cPeuple[0].ToString() == "Elfe" || cPeuple[0].ToString() == "Elfe Noir")
+            {
+                int value = random.Next(5, 10) + random.Next(5, 10) +
+                random.Next(5, 10) + random.Next(5, 10) + random.Next(5, 10);
+                cStats[6] = value + 10;
+                int val = 6;
+                while (value > 0)
+                {
+                    while (val == 6)
+                    {
+                        val = random.Next(0, cStats.Count);
+                    }
+                    if (cStats[val] > 15)
+                    {
+                        cStats[val]--;
+                        value--;
+                    }
+                    val = random.Next(0, cStats.Count);
+                }
+            }
+
             character.nom = cNom;
             character.surnom = cNurnom;
             character.peuple = cPeuple[0];
@@ -537,7 +564,6 @@ namespace FastCaracterGenerator
                 }
             }
 
-
             if (cStats[6] >= 19 || cCarriere[0] == "Occultiste"
                     || cCarriere[1] == "Initié, Prêtre" || cCarriere[1] == "Chasseur de sorcières")
             {
@@ -563,6 +589,7 @@ namespace FastCaracterGenerator
             {
                 cStats[6] = 0;
             }
+
             character.caracteristiques = cStats;
             character.bonusCarriere = cBonusCarriere;
             character.PV = cStats[4] / 5 + cStats[3] / 5 + cStats[12] / 10;

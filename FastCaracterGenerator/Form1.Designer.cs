@@ -55,10 +55,10 @@
             this.FastRender.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.FastRender.AutoSize = true;
-            this.FastRender.Font = new System.Drawing.Font("Courier New", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FastRender.Font = new System.Drawing.Font("Consolas", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FastRender.Location = new System.Drawing.Point(12, 65);
             this.FastRender.Name = "FastRender";
-            this.FastRender.Size = new System.Drawing.Size(250, 27);
+            this.FastRender.Size = new System.Drawing.Size(233, 28);
             this.FastRender.TabIndex = 2;
             this.FastRender.Text = "Empty, for now...";
             this.FastRender.Click += new System.EventHandler(this.label2_Click);
@@ -67,7 +67,7 @@
             // 
             this.QuickAccess_Button.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.QuickAccess_Button.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.QuickAccess_Button.Location = new System.Drawing.Point(1052, 549);
+            this.QuickAccess_Button.Location = new System.Drawing.Point(1052, 599);
             this.QuickAccess_Button.Name = "QuickAccess_Button";
             this.QuickAccess_Button.Size = new System.Drawing.Size(120, 50);
             this.QuickAccess_Button.TabIndex = 3;
@@ -78,7 +78,7 @@
             // 
             this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(926, 549);
+            this.button1.Location = new System.Drawing.Point(926, 599);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(120, 50);
             this.button1.TabIndex = 4;
@@ -116,7 +116,7 @@
             // 
             this.button2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(800, 549);
+            this.button2.Location = new System.Drawing.Point(800, 599);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(120, 50);
             this.button2.TabIndex = 7;
@@ -128,7 +128,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1184, 611);
+            this.ClientSize = new System.Drawing.Size(1184, 661);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.Label);
             this.Controls.Add(this.numericUpDown1);
@@ -136,7 +136,7 @@
             this.Controls.Add(this.QuickAccess_Button);
             this.Controls.Add(this.FastRender);
             this.Controls.Add(this.Randomize);
-            this.MinimumSize = new System.Drawing.Size(1200, 650);
+            this.MinimumSize = new System.Drawing.Size(1200, 700);
             this.Name = "Generator";
             this.Text = "QuickGenerator";
             this.Load += new System.EventHandler(this.Generator_Load);
